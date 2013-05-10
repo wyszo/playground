@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696C12AFB40E7CDFAA37F9D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696C1EAAD01E0AC45F148687 /* CoreGraphics.framework */; };
+		696C12B67DB37657683B4EAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696C1106833762805CE1EC33 /* Default-568h@2x.png */; };
+		696C1444CD91D4BCCA5BB33C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 696C1C5789AA5BA661150C3C /* Default.png */; };
+		696C14E9BF46F4E9C62545B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 696C173348A63308BD351085 /* InfoPlist.strings */; };
+		696C14FD235B5956107534CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C18764B353ADA4913285A /* main.m */; };
+		696C15F8F6EA24FA601A23B6 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C15281D77FC923B1EC313 /* STAppDelegate.m */; };
+		696C16BF427D814DA4AB9389 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696C199B55EFD1BC85990F8E /* MainStoryboard.storyboard */; };
+		696C16C81AD0CE9D05855D58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696C151DC5492B619E961E57 /* UIKit.framework */; };
+		696C176443F1D81F896D1661 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1B85DBAB656E8DDAA6F4 /* STViewController.m */; };
+		696C17B95A62ABF502672306 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696C14855773FA82CC768925 /* Default@2x.png */; };
+		696C1CD41E67348EDACDF9DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696C1039D8B788B9917599FD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		696C1039D8B788B9917599FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		696C1106833762805CE1EC33 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		696C11C254D9613666A1F098 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		696C13DCE6940E8A75194D8A /* SimpleTimer-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SimpleTimer-iOS-Info.plist"; sourceTree = "<group>"; };
+		696C1437866AA58E338AFC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		696C14855773FA82CC768925 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		696C151DC5492B619E961E57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		696C15281D77FC923B1EC313 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		696C16CAE2DAACCD4268629E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		696C170882227A087C553A21 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		696C17BC6E20EEF7C0118313 /* SimpleTimer-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTimer-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		696C18764B353ADA4913285A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696C1B85DBAB656E8DDAA6F4 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		696C1C5789AA5BA661150C3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		696C1E7D5C2B7988DE5D73A1 /* SimpleTimer-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleTimer-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		696C1EAAD01E0AC45F148687 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696C121E7EA848E7CFB3D01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C16C81AD0CE9D05855D58 /* UIKit.framework in Frameworks */,
+				696C1CD41E67348EDACDF9DC /* Foundation.framework in Frameworks */,
+				696C12AFB40E7CDFAA37F9D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696C108B2FB37CF295E1C87E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				696C151DC5492B619E961E57 /* UIKit.framework */,
+				696C1039D8B788B9917599FD /* Foundation.framework */,
+				696C1EAAD01E0AC45F148687 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		696C1253AEC9E3E952B0876F = {
+			isa = PBXGroup;
+			children = (
+				696C1BBE941A359FD29D3C94 /* Products */,
+				696C108B2FB37CF295E1C87E /* Frameworks */,
+				696C13FBEE81F78C4AD04353 /* SimpleTimer-iOS */,
+			);
+			sourceTree = "<group>";
+		};
+		696C13FBEE81F78C4AD04353 /* SimpleTimer-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				696C1DA6FE15AD7ECDC52F84 /* Supporting Files */,
+				696C11C254D9613666A1F098 /* STAppDelegate.h */,
+				696C15281D77FC923B1EC313 /* STAppDelegate.m */,
+				696C199B55EFD1BC85990F8E /* MainStoryboard.storyboard */,
+				696C170882227A087C553A21 /* STViewController.h */,
+				696C1B85DBAB656E8DDAA6F4 /* STViewController.m */,
+			);
+			path = "SimpleTimer-iOS";
+			sourceTree = "<group>";
+		};
+		696C1BBE941A359FD29D3C94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696C1E7D5C2B7988DE5D73A1 /* SimpleTimer-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696C1DA6FE15AD7ECDC52F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696C13DCE6940E8A75194D8A /* SimpleTimer-iOS-Info.plist */,
+				696C173348A63308BD351085 /* InfoPlist.strings */,
+				696C18764B353ADA4913285A /* main.m */,
+				696C17BC6E20EEF7C0118313 /* SimpleTimer-iOS-Prefix.pch */,
+				696C1C5789AA5BA661150C3C /* Default.png */,
+				696C14855773FA82CC768925 /* Default@2x.png */,
+				696C1106833762805CE1EC33 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696C1863D35C3E35FDE8C2EC /* SimpleTimer-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696C160EF612427400DD7EC8 /* Build configuration list for PBXNativeTarget "SimpleTimer-iOS" */;
+			buildPhases = (
+				696C18A3A352A3ADB96CD49D /* Sources */,
+				696C121E7EA848E7CFB3D01E /* Frameworks */,
+				696C1955C53B6D5D82C84A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpleTimer-iOS";
+			productName = "SimpleTimer-iOS";
+			productReference = 696C1E7D5C2B7988DE5D73A1 /* SimpleTimer-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696C182DF530206A07B7F3B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Synappse Tomasz Wyszomirski";
+			};
+			buildConfigurationList = 696C112BFC67E9F5D1DB478B /* Build configuration list for PBXProject "SimpleTimer-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 696C1253AEC9E3E952B0876F;
+			productRefGroup = 696C1BBE941A359FD29D3C94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696C1863D35C3E35FDE8C2EC /* SimpleTimer-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696C1955C53B6D5D82C84A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C14E9BF46F4E9C62545B6 /* InfoPlist.strings in Resources */,
+				696C1444CD91D4BCCA5BB33C /* Default.png in Resources */,
+				696C17B95A62ABF502672306 /* Default@2x.png in Resources */,
+				696C12B67DB37657683B4EAA /* Default-568h@2x.png in Resources */,
+				696C16BF427D814DA4AB9389 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696C18A3A352A3ADB96CD49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C14FD235B5956107534CA /* main.m in Sources */,
+				696C15F8F6EA24FA601A23B6 /* STAppDelegate.m in Sources */,
+				696C176443F1D81F896D1661 /* STViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		696C173348A63308BD351085 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696C1437866AA58E338AFC44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		696C199B55EFD1BC85990F8E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696C16CAE2DAACCD4268629E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696C17D46D6037C1A5B36D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		696C1AB2782D02AC6A56C09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTimer-iOS/SimpleTimer-iOS-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTimer-iOS/SimpleTimer-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		696C1CE1444B1C7CD504ECFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696C1D7E0845DA98D6858793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTimer-iOS/SimpleTimer-iOS-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTimer-iOS/SimpleTimer-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696C112BFC67E9F5D1DB478B /* Build configuration list for PBXProject "SimpleTimer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696C1CE1444B1C7CD504ECFE /* Release */,
+				696C17D46D6037C1A5B36D7B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696C160EF612427400DD7EC8 /* Build configuration list for PBXNativeTarget "SimpleTimer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696C1D7E0845DA98D6858793 /* Release */,
+				696C1AB2782D02AC6A56C09C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696C182DF530206A07B7F3B9 /* Project object */;
+}
